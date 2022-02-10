@@ -7,14 +7,14 @@
 int main() {
    int no1,no2;
    float avg;
-   printf("\nEnter the first number : );
+   printf("\nEnter the first number : ");
    scanf("%d",&no1);
-    printf("\nEnter the second number : );
+    printf("\nEnter the second number : " );
    scanf("%d",&no2);
            
            avg=(no1+no2)/2;
            
-           printf("\n\nThe average is : %d ", avg);
+           printf("\n\nThe average is : %.2f ", avg);
    
   
   return 0;
